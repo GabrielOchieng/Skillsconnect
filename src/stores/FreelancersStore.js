@@ -7,7 +7,7 @@ export const useFreelancersStore = defineStore("freelancersStore", {
 		singleFreelancer: {},
 		bids: 0,
 	}),
-	persist: false,
+
 	getters: {
 		totalCount: (state) => {
 			return state.freelancers.length;

@@ -9,7 +9,7 @@ export const useJobsStore = defineStore("jobsStore", {
 		bids: 0,
 		daysLeft: 5,
 	}),
-	persist: true,
+
 	getters: {
 		totalCount: (state) => {
 			return state.jobs.length;
