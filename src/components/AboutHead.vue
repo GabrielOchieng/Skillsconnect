@@ -18,14 +18,14 @@
 					If you're in search of top skills to complete a task of yours within
 					any field and want access to higher value job delivery, then join the
 					<span class="homelink">
-						<route-link to="/">SKILLSCONNECT</route-link>
+						<router-link to="/">SKILLSCONNECT</router-link>
 					</span>
 					platform. When you have a task, the skills are delivered to you!
 				</p>
 			</div>
 
 			<div class="hireBtn">
-				<route-link to="/createjob" class="hireButton">Hire Now</route-link>
+				<router-link class="hireButton" to="/createjob">Hire Now</router-link>
 			</div>
 		</div>
 	</div>
