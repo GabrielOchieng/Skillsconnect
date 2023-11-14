@@ -7,21 +7,25 @@
 				to their requirements.
 			</h2>
 			<div class="createlink">
-				<a href="/createjob"><i class="material-icons">star</i></a>
-				<a href="/createjob"><p>Get top skills globally</p></a>
+				<router-link to="/createjob"
+					><i class="material-icons">star</i></router-link
+				>
+				<router-link to="/createjob">Get top skills globally</router-link>
 			</div>
 
 			<div class="para">
 				<p>
 					If you're in search of top skills to complete a task of yours within
 					any field and want access to higher value job delivery, then join the
-					<span class="homelink"><a href="/">SKILLSCONNECT</a></span>
+					<span class="homelink">
+						<route-link to="/">SKILLSCONNECT</route-link>
+					</span>
 					platform. When you have a task, the skills are delivered to you!
 				</p>
 			</div>
 
 			<div class="hireBtn">
-				<a href="/createjob" class="hireButton">Hire Now</a>
+				<route-link to="/createjob" class="hireButton">Hire Now</route-link>
 			</div>
 		</div>
 	</div>

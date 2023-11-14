@@ -25,7 +25,10 @@
 		<div class="divitem">
 			<p>
 				Don't have an account yet?
-				<span><a href="/signup">Sign up </a>instead.</span>
+				<span>
+					<route-link to="/signup">Sign up</route-link>
+					instead.</span
+				>
 			</p>
 		</div>
 	</form>

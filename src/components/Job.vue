@@ -13,7 +13,7 @@
 							<p>{{ jobsStore.singleJob.jobDescription }}</p>
 						</div>
 						<div class="skills">
-							<a href="/">{{ jobsStore.singleJob.skills }}</a>
+							<route-link to="/">{{ jobsStore.singleJob.skills }}</route-link>
 						</div>
 					</div>
 					<div class="price">

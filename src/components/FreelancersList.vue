@@ -30,7 +30,7 @@
 								</div>
 							</div>
 							<div class="view">
-								<a href="/singlefreelancer">View Profile</a>
+								<router-link to="/singlefreelancer">View Profile</router-link>
 							</div>
 						</div>
 					</div>
@@ -61,7 +61,7 @@
 						</div>
 					</div>
 					<div class="view">
-						<a href="/singlefreelancer">View Profile</a>
+						<router-link to="/singlefreelancer">View Profile</router-link>
 					</div>
 				</div>
 			</div>

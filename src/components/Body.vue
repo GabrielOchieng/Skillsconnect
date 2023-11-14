@@ -19,17 +19,17 @@
 								<p>{{ job.jobDescription }}</p>
 							</div>
 							<div class="skills">
-								<a href="/">{{ job.id }}</a>
+								<router-link to="/">{{ job.skills }}</router-link>
 							</div>
 						</div>
 						<div class="price">
 							<h4>$40 to $50 / hr</h4>
 							<p>{{ jobsStore.bids }} bids</p>
-							<a
-								href="/singlejob"
+							<router-link
+								to="/singlejob"
 								class="bidbtn"
 								@click="jobsStore.bidIncrement(job.id)"
-								>Bid</a
+								>Bid</router-link
 							>
 						</div>
 					</div>
@@ -104,18 +104,19 @@
 								<p>{{ job.jobDescription }}</p>
 							</div>
 							<div class="skills">
-								<a href="/">{{ job.skills }}</a>
+								<router-link to="/">{{ job.skills }}</router-link>
 							</div>
 						</div>
 						<div class="price">
 							<h4>$40 to $50 / hr</h4>
 							<p>{{ bids }} bids</p>
-							<a
-								href="/singlejob"
+							<router-link
+								to="singlejob"
 								class="bidbtn"
 								@click="jobsStore.bidIncrement(job.id)"
-								>Bid</a
+								>Bid</router-link
 							>
+
 							<button @click="jobsStore.deleteJob(job.id)">delete</button>
 						</div>
 					</div>

@@ -34,8 +34,11 @@
 		</div>
 		<div class="divitem">
 			<p>
-				Already have an account yet?
-				<span><a href="/login">Login </a>instead.</span>
+				Already have an account?
+				<span>
+					<route-link to="/login">Login</route-link>
+					instead.</span
+				>
 			</p>
 		</div>
 	</form>

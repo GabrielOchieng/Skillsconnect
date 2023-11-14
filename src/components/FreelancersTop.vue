@@ -17,7 +17,9 @@
 			</div>
 
 			<div class="hireBtn">
-				<a href="/createjob" class="hireButton">Get your job done now!!!</a>
+				<router-link to="/createjob" class="hireButton"
+					>Get your job done now!!!</router-link
+				>
 			</div>
 		</div>
 	</div>
